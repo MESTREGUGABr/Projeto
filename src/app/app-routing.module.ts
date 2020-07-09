@@ -1,11 +1,21 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { TelaLoginComponent } from './tela-login/tela-login.component';
+import { TelaCadastroComponent } from './tela-cadastro/tela-cadastro.component';
+import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 
-
-const routes: Routes = [];
+const routes: Routes = [
+  {path : 'telaloginC', component : TelaLoginComponent},
+  {path : 'telacadastroC', component : TelaCadastroComponent},
+  {path : 'telainicialC', component : TelaInicialComponent}
+ 
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule { 
+  
+ 
+}

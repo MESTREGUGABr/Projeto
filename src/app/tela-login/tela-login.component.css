@@ -1,0 +1,98 @@
+.tela {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('C:\Users\Yasmim Sales\Desktop\project\src\app\tela-login\imagem\3441167.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  body
+  {   
+      margin:0px;
+      padding: 0px;
+      -webkit-background-size: cover;
+      background-size: cover;
+      font-family: Tahoma,sans-serif;
+  }
+  
+  .form-area
+  {
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width:500px;
+      height: 500px;
+      box-sizing: border-box;
+      background:rgba(0,0,0,0.5);
+      background-color: SteelBlue;
+      padding: 40px; 
+  }
+  
+  h2{
+    margin:20px;
+     padding: 0 0 20px;
+    font-weight: bold;
+    color: #ffffff;
+ }
+  
+  
+  
+  .form-area input,select
+  {
+      margin-bottom: 20px;
+      width: 100%;
+  }
+  
+  .form-area input[type=text],
+  .form-area input[type=password]
+  {
+      border:none;
+      border-bottom: 1px solid black;
+      background-color: transparent;
+      outline: none;
+      height: 40px;
+      color: #ffffff;
+      display: 16px;
+  }
+  
+  ::placeholder
+  {
+      color: #ffffff;
+  }
+  
+  
+  
+  .form-area input[type=submit]
+  {
+      border:none;
+      height: 40px;
+      outline: none;
+      color: #ffffff;
+      font-size: 15px;
+      background-color: SkyBlue;
+      cursor:pointer;
+      border-radius: 20px;
+  }
+  
+  .form-area input[type=submit]:hover
+  {
+      background-color: DodgerBlue;
+      color: #ffffff;
+  }
+  
+  .form-area a
+  {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      
+  }
