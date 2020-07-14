@@ -7,7 +7,8 @@ import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 const routes: Routes = [
   {path : 'telaloginC', component : TelaLoginComponent},
   {path : 'telacadastroC', component : TelaCadastroComponent},
-  {path : 'telainicialC', component : TelaInicialComponent}
+  {path : 'telainicialC', component : TelaInicialComponent},
+  {path: '', redirectTo: '/telainicialC', pathMatch: 'full'}
  
 ];
 
